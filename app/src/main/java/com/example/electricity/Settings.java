@@ -17,6 +17,7 @@ public class Settings extends AppCompatActivity {
         back = findViewById(R.id.imageView24);
         changeUsername = findViewById(R.id.button6);
         back();
+        changeUsername();
     }
 
     public void back() {
