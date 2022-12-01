@@ -34,14 +34,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void checkUser() {
         btnLogin.setOnClickListener(view -> {
-            String sUsername = username.getText().toString();
-            String sPassword = password.getText().toString();
+            String sUsername = username.getText().toString().trim();
+            String sPassword = password.getText().toString().trim();
             int checkUser = database.checkData(sUsername, sPassword);
             if (checkUser == 1) {
                 Toast.makeText(MainActivity.this, "Logged in successfully", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this, Home.class);
                 intent.putExtra("username", sUsername);
                 startActivity(intent);
+                finish();
             } else if (checkUser == 2){
                 Toast.makeText(MainActivity.this, "Username and password cannot be empty", Toast.LENGTH_LONG).show();
             } else {
