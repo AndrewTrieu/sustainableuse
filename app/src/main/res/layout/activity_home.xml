@@ -7,6 +7,16 @@
     tools:context=".Home">
 
     <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="515dp"
+        android:layout_height="850dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
         android:id="@+id/imageView4"
         android:layout_width="515dp"
         android:layout_height="364dp"
@@ -119,7 +129,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="3.5 kWh"
+        android:text="20 kWh"
         android:textColor="#FFC107"
         android:textSize="48sp"
         android:textStyle="bold|italic"
