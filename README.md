@@ -2,7 +2,12 @@
 An Android application created as a demonstration for the final group work of the course CT60A4800 Fundamentals of smart systems at LUT University, Finland.
 
 ## Usage
-<img src="https://user-images.githubusercontent.com/68151686/208659714-6fead57b-2609-41a8-b728-ba8ae94553de.png" width="500">
+https://user-images.githubusercontent.com/68151686/210258858-27ef1408-88a5-4b16-9266-4587781d2830.mp4
+
 
 ## Notes
 Due to time constraints, the application remains limited and crude in terms of functionality and usability. 
+
+
+
+
